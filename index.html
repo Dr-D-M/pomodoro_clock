@@ -39,14 +39,14 @@
 
 		<div class="row">
 			<div class="six columns">
-				<button class="button-primary updown">Down</button>
-				<div id="session" class="updown">25</div>
-				<button class="button-primary updown">Up</button>
+				<button class="button-primary updown" id="downward">Down</button>
+				<div class="updown" id="session">25</div>
+				<button class="button-primary updown" id="upward">Up</button>
 			</div>
 			<div class="six columns">
-				<button class="button-primary updown">Down</button>
+				<button class="button-primary updown" id="downward">Down</button>
 				<div id="break" class="updown">5</div>
-				<button class="button-primary updown">Up</button>
+				<button class="button-primary updown" id="upward">Up</button>
 			</div>
 		</div>
 	</div>
@@ -54,23 +54,23 @@
 	<div class="container blackbox">
 		<div class="row">
 			<div class="six columns">
-				<button class="button-primary">Play</button>
+				<button class="button-primary" id="play">Play</button>
 			</div>
 			<div class="six columns">
-				<button class="button-primary">Refresh</button>
+				<button class="button-primary" id="refresh">Refresh</button>
 			</div>
 		</div>
 
 		<div class="row">Session</div>
 
-		<div class="row">25:00</div>
+		<div class="row" id="timer">25:00</div>
 
 		<div class="row">
 			<div class="six columns">
-				<button class="button-primary">Pause</button>
+				<button class="button-primary" id="pause">Pause</button>
 			</div>
 			<div class="six columns">
-				<button class="button-primary">Stop</button>
+				<button class="button-primary" id="stop">Stop</button>
 			</div>			
 		</div>
 	</div>
